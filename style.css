@@ -1,0 +1,269 @@
+body{
+    margin: 0px auto;
+    padding: 0px;
+    max-width: 1500px;
+    border-left: 2px solid #008000;
+    border-right: 2px solid #008000;
+    background-color: aliceblue;
+    
+    
+    
+}
+nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    background-color: aliceblue;
+    border-bottom: 5px solid #008000;
+    padding: 5px;
+    margin: 0 0 15px 0;
+
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+.splash{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.splash img{
+    border: solid 5px;
+    border-color: #008000;
+}
+.splash p{
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+section{
+    margin: 5px;
+}
+hr{
+    border: dotted;
+    border-color:  #008000;
+}
+
+h1{
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+    color:red;
+    text-decoration: underline red;
+}
+
+h2{
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+    color: #008000;
+}
+dl{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+dt.awardspad{
+    border-bottom: thin solid #008000;
+}
+dd.awardspad{
+    border-bottom: thin solid #008000;
+    width:fit-content;
+}
+
+/* .lines{
+    border: thin dotted;
+    border-color: black;
+} */
+.awardspad{
+    padding-top: 10px;
+    margin: 0px;   
+
+
+}
+ul{
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    list-style-image: url(images/down-arrow.jpg);
+}
+
+.three-col{
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-auto-columns: max-content; */
+    padding-bottom: 20px;
+}
+
+.one-col{
+    display: grid;
+    padding: 0px 25%;
+    margin: auto;
+    grid-template-columns: 1fr;
+    padding-bottom: 20px;
+}
+
+.card{
+    width: 400px;
+    height: 550px;
+
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 10px;
+    margin: 1px auto;
+
+    
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 black;
+    border: 1px solid red;
+    margin: 0px auto;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    height: 300px;
+}
+h3{
+    padding: 5px;
+}
+
+.redcolor{
+    display: inline;
+    
+    font-size: 101%;
+    color: red;
+}
+.greencolor{
+    display: inline;
+    color:#008000;
+    font-size: 101%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-top: 5px solid #008000;
+    border-bottom: 5px solid #008000;
+    padding: 5px;
+
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+a.default-link {
+    text-decoration: none;
+    color: darkblue;
+}
+
+a.default-link:visited{
+    text-decoration: none;
+    color:blueviolet;
+}
+a.default-link:hover{
+    color: red;
+    font-size: 101%;
+}
+
+a.cardlink{
+    text-decoration: none;
+    color: inherit;
+
+}
+a.cardlink:hover{
+    
+}
+a.cardlink:active{
+    color: inherit;
+}
+a.cardlink:visited{
+    text-decoration: none;
+
+}
+a.cardlink:visited h3{
+    text-decoration: none;
+    color:blueviolet;   
+}
+.formletters{
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    color: #008000;
+
+    margin: 5px 0px 1px 0px;
+}
+
+.formbox{
+    box-shadow: 0 2px 4px 0 black;
+    border-radius: 5px;
+
+
+
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    color: red;
+    
+}
+.formbox:hover{
+    box-shadow: 0 4px 8px 0 black;
+}
+
+/* Fonts from google fonts*/
+/* .anonymous-pro-regular {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .anonymous-pro-bold {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .anonymous-pro-regular-italic {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .anonymous-pro-bold-italic {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  
+  .courier-prime-regular {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .courier-prime-bold {
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .courier-prime-regular-italic {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .courier-prime-bold-italic {
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: italic;
+  }
+   */
