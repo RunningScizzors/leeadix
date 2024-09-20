@@ -4,11 +4,15 @@ body{
     max-width: 1500px;
     border-left: 2px solid #008000;
     border-right: 2px solid #008000;
-    background-color: aliceblue;
+    background-color: white;
     
     
     
 }
+.background{
+    background-color: aliceblue;
+}
+
 nav{
     display: flex;
     position: sticky;
@@ -50,8 +54,9 @@ h1{
     font-family: "Courier Prime", monospace;
     font-weight: 700;
     font-style: normal;
-    color:red;
-    text-decoration: underline red;
+    font-size: 30px;
+    color:green;
+    /* text-decoration: underline green; */
 }
 
 h2{
