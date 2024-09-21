@@ -152,7 +152,7 @@ ul{
     .card:hover{
         box-shadow: 0 8px 16px 0 black;
         border: 1px solid red;
-        margin: 19.2px auto;
+        margin: 20px auto;
     }
 }
 
