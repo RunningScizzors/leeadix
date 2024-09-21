@@ -100,7 +100,7 @@ ul{
     list-style-image: url(images/down-arrow.jpg);
 }
 
-.three-col{
+.card-col{
     display: grid;
     margin: auto;
     grid-template-columns: 1fr 1fr 1fr;
@@ -135,7 +135,7 @@ ul{
 
 @media screen and (max-width: 1300px){
 
-    .three-col{
+    .card-col{
         padding: 0px 20px;
         grid-template-columns: 1fr 1fr;
     }
@@ -144,7 +144,7 @@ ul{
 
 @media screen and (max-width: 900px){
 
-    .three-col{
+    .card-col{
         margin: 20px;
         grid-template-columns: 1fr;
     }
@@ -152,7 +152,7 @@ ul{
     .card:hover{
         box-shadow: 0 8px 16px 0 black;
         border: 1px solid red;
-        margin: 20px auto;
+        margin: 19.2px auto;
     }
 }
 
