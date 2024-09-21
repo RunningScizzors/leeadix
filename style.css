@@ -4,7 +4,7 @@ body{
     max-width: 1500px;
     border-left: 2px solid #008000;
     border-right: 2px solid #008000;
-    background-color: white;
+    background-color: black;
     
     
     
@@ -27,6 +27,12 @@ nav{
     font-weight: 700;
     font-style: normal;
 }
+div{
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
 .splash{
     display: flex;
     align-items: center;
@@ -57,6 +63,10 @@ h1{
     font-size: 30px;
     color:green;
     /* text-decoration: underline green; */
+}
+
+.headshot{
+    height: 200px;
 }
 
 h2{
@@ -105,21 +115,35 @@ ul{
     padding-bottom: 20px;
 }
 
-.one-col{
-    display: grid;
-    padding: 0px 25%;
-    margin: auto;
-    grid-template-columns: 1fr;
-    padding-bottom: 20px;
+@media screen and (max-width: 1300px){
+
+    .three-col{
+        display: grid;
+        padding: 0px 20px;
+        margin: auto;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 20px;
+    }
+
 }
 
+@media screen and (max-width: 900px){
+
+    .three-col{
+        display: grid;
+        padding: 0px 20px;
+        margin: 20px;
+        grid-template-columns: 1fr;
+        padding-bottom: 20px;
+    }
+}
 .card{
     width: 400px;
     height: 550px;
 
     box-shadow: 0 4px 8px 0 black;
     border-radius: 10px;
-    margin: 1px auto;
+    margin: 20px auto;
 
     
 }
