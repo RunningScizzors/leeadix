@@ -4,10 +4,7 @@ body{
     max-width: 1500px;
     border-left: 2px solid #008000;
     border-right: 2px solid #008000;
-    background-color: black;
-    
-    
-    
+    background-color: black;  
 }
 .background{
     background-color: aliceblue;
@@ -206,9 +203,6 @@ a.cardlink{
     text-decoration: none;
     color: inherit;
 
-}
-a.cardlink:hover{
-    
 }
 a.cardlink:active{
     color: inherit;
