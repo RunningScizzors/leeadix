@@ -144,16 +144,36 @@ ul{
 
     
 }
-.card:hover{
-    box-shadow: 0 8px 16px 0 black;
-    border: 1px solid red;
-    margin: 0px auto;
-}
 .card img{
     width: 100%;
     border-radius: 10px 10px 0px 0px;
     height: 300px;
 }
+
+@media screen and (max-width: 500px){
+
+    .card{
+        width: 300px;
+        height: 450px;
+    
+        box-shadow: 0 4px 8px 0 black;
+        border-radius: 10px;
+        margin: 20px auto;       
+    }
+
+    .card img{
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+        height: 200px;
+    }
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 black;
+    border: 1px solid red;
+    margin: 0px auto;
+}
+
 h3{
     padding: 5px;
 }
@@ -183,7 +203,6 @@ footer{
     font-weight: 700;
     font-style: normal;
 }
-
 
 a.default-link {
     text-decoration: none;
