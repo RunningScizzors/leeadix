@@ -87,10 +87,6 @@ dd.awardspad{
     width:fit-content;
 }
 
-/* .lines{
-    border: thin dotted;
-    border-color: black;
-} */
 .awardspad{
     padding-top: 10px;
     margin: 0px;   
@@ -108,7 +104,6 @@ ul{
     display: grid;
     margin: auto;
     grid-template-columns: 1fr 1fr 1fr;
-    /* grid-auto-columns: max-content; */
     padding-bottom: 20px;
 }
 
