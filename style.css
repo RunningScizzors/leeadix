@@ -183,7 +183,8 @@ ul{
 
 .contact-card img{
     align-items: center;
-    width: 200px;
+    /* width: 200px; */
+    width: 100%;
 
 }
 .copy p{
