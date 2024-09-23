@@ -21,24 +21,54 @@
     </nav>
     <section class="splash">
 
-        <h1>⁝ Contact Lee ⁝</h1>
+        <h1>⁝ Lee Alexander Dix ⁝</h1>
         <img class="headshot" alt="Lee Dix in formal wear" src="images/headshot.JPEG">
-        <p>1570 Bob Godfrey Rd • Athens, GA • (706) 549-1995 • leea509@aol.com</p>
+        <p>1570 Bob Godfrey Rd • Athens, GA <br> (706) 549-1995 • leea509@aol.com</p>
+        <p>Passionate Computer Science, MIS dual graduate with a focus 
+            on cybersecurity and artificial intelligence, seeking an 
+            entry-level position in a forward-thinking tech company.</p>
     </section>
     <hr>
-    <form class="one-col" action="mailto:leea509@aol.com" method="post">
-        <p class="formletters">Name:</p><input class="formbox" type="text">
-        <p class="formletters">email:</p><input class="formbox" type="email">
-        <p class="formletters">message:</p><textarea class="formbox" rows="5" cols="20"></textarea>
-        <br />
+    <section>
+        <h2>Contacts & Links</h2>
+        <div class="contact-col">
 
-        <input  class="formbox" type="submit">
-    </form>
+            <a class="cardlink">
+                <div class="contact-card">
+                    <h2>Contact</h2>
+                    <p>(copy to clipboard)</p>
+                    <br>
+                    <div class="copy" onclick="copyValue('email')" value="leea509@aol.com" id="email"><p>Email:<br>leea509@aol.com</p></div>
+                    <br>
+                    <div class="copy" onclick="copyValue('email2')" value="leea509@uga.edu" id="email2"><p>School Email:<br>leea509@uga.edu</p></div>
+                    <br>
+                    <div class="copy" onclick="copyValue('cell')" value="706-549-1995" id="cell"><p>Cell:<br>(706) 549-1995</p></div>
+                </div>
+            </a>
+
+            <a class="cardlink" target="_blank" href="https://www.linkedin.com/in/lee-dix">
+                <div class="contact-card">
+                    <h2>LinkedIn</h2>
+                    <br>
+                    <img src="images/inlogo.png">
+                </div>
+            </a>
+
+            <a class="cardlink" target="_blank" href="https://github.com/leeadix">
+                <div class="contact-card">
+                    <h2>GitHub</h2>
+                    <br>
+                    <img src="images/gitlogo.png">
+                    
+                </div>
+            </a>
+        </div>
+    </section>
     <footer>
-        &copy; <a class="default-link" href="index.html">&nbsp;Lee Dix</a>
-        &nbsp; • &nbsp;
-        <a target="_blank" href="https://www.linkedin.com/in/lee-dix"><i class="fa-brands fa-linkedin"></i></a>
+        &copy;&nbsp;Lee Dix
     </footer>
 </div>
+
+<script src="copy.js"></script>
 </body>
 </html>
